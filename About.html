@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About HUGS | Humane Unified Goods & Services</title>
+  <meta name="description" content="HUGS provides humane goods, supportive services, and trusted resources with dignity, compassion, and care." />
+
+  <style>
+    :root {
+      --primary-blue: #1f4e79;
+      --soft-blue: #6ec1e4;
+      --dark-blue: #0b2d45;
+      --text-dark: #1a1a1a;
+      --text-light: #555;
+      --bg-light: #f7f9fb;
+      --max-width: 900px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
+      color: white;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    section {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      color: var(--primary-blue);
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    section p {
+      margin-bottom: 1.3rem;
+      color: var(--text-light);
+      font-size: 1.05rem;
+    }
+
+    .highlight {
+      color: var(--primary-blue);
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.1rem;
+      }
+
+      section {
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>About HUGS</h1>
+    <p>Humane Unified Goods & Services</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Who We Are</h2>
+
+      <p>
+        <span class="highlight">HUGS</span> was created from a simple truth:
+        <strong>everyone deserves support that feels human</strong>.
+      </p>
+
+      <p>
+        In moments of hardship, transition, or rebuilding, people don’t just
+        need services—they need care, dignity, and connection. HUGS exists to
+        meet those moments with compassion and action, providing
+        <strong>humane goods, supportive services, and trusted resources</strong>
+        that help individuals and communities regain stability and hope.
+      </p>
+
+      <p>
+        At our core, HUGS is about <strong>showing up</strong>. We bridge gaps
+        where systems fall short, offering assistance that respects the whole
+        person—not just the problem in front of them. Whether supporting
+        veterans, families, caregivers, or individuals navigating life’s
+        challenges, our focus is practical help delivered with empathy.
+      </p>
+
+      <p>
+        We believe support should never feel transactional or cold. That’s why
+        HUGS is rooted in values of <strong>respect, transparency, and community
+        care</strong>. Every initiative we offer is designed to empower—not
+        label—and to uplift without overwhelm.
+      </p>
+
+      <p>
+        HUGS is more than an organization. It’s a reminder that no one has to
+        face life alone. Through collaboration, compassion, and purpose-driven
+        action, we work to create safer, more supportive spaces where people can
+        heal, rebuild, and move forward with confidence.
+      </p>
+
+      <p class="highlight">
+        Because sometimes, what people need most is a HUG.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> HUGS — Humane Unified Goods & Services
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
