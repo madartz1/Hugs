@@ -1,1 +1,0 @@
-assets/hugs-logo.jpg
