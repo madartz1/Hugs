@@ -1,1 +1,1 @@
-assets/README.md
+assets/hugs-logo.jpg
